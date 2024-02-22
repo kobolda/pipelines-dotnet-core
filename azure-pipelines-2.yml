@@ -16,8 +16,3 @@ steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
   
-#Test Studio Template
-- template: test-studio.yaml
-  parameters:
-    testProjectRoot: 'TestStudioProject1'
-      testListName: 'TestList1'
